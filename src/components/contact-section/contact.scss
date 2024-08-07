@@ -1,0 +1,31 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 40px 30px;
+
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    p {
+        line-height: 27px;
+        font-size: 17px;
+    }
+
+    .socials {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+
+        img {
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+}
