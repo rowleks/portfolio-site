@@ -1,0 +1,63 @@
+@import "../../styles/responsive.scss";
+
+
+
+.about-hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+    section.top {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding: 80px 30px;
+        background-color: #F9E6F0;
+
+        @include sm {
+            flex-direction: row;
+            align-items: center;
+            padding: 80px;
+        }
+
+        .pic-bio {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .info {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            line-height: 27px;
+        }
+
+        .bio {
+            line-height: 27px;
+            font-size: 17px;
+            max-width: 600px;
+        }
+    }
+
+    section.bottom {
+        padding: 80px 30px;
+        line-height: 27px;
+        font-size: 17px;
+
+        @include sm {
+            padding: 80px;
+        }
+    }
+
+    hr {
+        width: 90%;
+        margin: 0 auto;
+        color: #000;
+        margin-bottom: 2rem;
+    }
+    
+
+}

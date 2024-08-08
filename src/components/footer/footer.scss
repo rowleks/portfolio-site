@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background: #000;
+    width: 100%;
+
+    span {
+        color: #FFF;
+
+        &:first-child {
+            font-weight: 500;
+        }
+
+        &:last-child {
+            font-weight: 300;
+        }
+    }
+
+}

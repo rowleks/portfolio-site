@@ -1,16 +1,14 @@
+import AboutHero from "../../components/about-hero/AboutHero";
 import Contact from "../../components/contact-section/Contact";
 import Footer from "../../components/footer/Footer";
-import Hero from "../../components/hero-section/Hero";
 import Navbar from "../../components/navbar/Navbar";
-import Projects from "../../components/projects/Projects";
-import "./home.scss";
+import "./about.scss";
 
-function Home() {
+function About() {
   return (
-    <div className="homepage">
+    <div className="about-page">
         <Navbar />
-        <Hero />
-        <Projects />
+        <AboutHero />
         <Contact />
         <Footer />
       
@@ -18,4 +16,4 @@ function Home() {
   )
 }
 
-export default Home
+export default About

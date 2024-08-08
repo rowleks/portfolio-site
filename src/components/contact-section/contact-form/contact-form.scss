@@ -18,6 +18,10 @@
             border: none;
             font-family: inherit;
             resize: none;
+
+            &:focus {
+                outline: solid 1px #2D2D2D;
+            }
         }
 
         button {

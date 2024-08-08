@@ -1,10 +1,10 @@
-import React, { useState, ChangeEvent, FormEvent } from 'react';
+import { useState, ChangeEvent, FormEvent } from 'react';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './contact-form.scss';
 
-const ContactForm: React.FC = () => {
+const ContactForm= () => {
   const [formData, setFormData] = useState({
     from_name: '',
     reply_to: '',
@@ -22,11 +22,11 @@ const ContactForm: React.FC = () => {
     emailjs.send('service_5mpt62u', 'template_brml813', formData, 'XAFIhVu6hiyCi8kxS')
       .then((result) => {
         console.log('Email sent successfully:', result.text);
-        toast.success('Message sent successfully!');
+        toast.success('Message delivered successfully');
         
         setTimeout(() => {
           setFormData({ from_name: '', reply_to: '', message: '' });
-        }, 3000);
+        }, 2000);
       }, (error) => {
         console.log('Failed to send email:', error.text);
         toast.error('Failed to send message.');
@@ -69,7 +69,7 @@ const ContactForm: React.FC = () => {
             required
           />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit">Send</button>
       </form>
       <ToastContainer />
     </div>
