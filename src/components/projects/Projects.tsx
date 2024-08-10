@@ -2,7 +2,7 @@ import "./projects.scss";
 
 function Projects() {
   return (
-    <div className="project-section">
+    <div id="projects" className="project-section">
         <h2>Latest Projects</h2>
         <div className="grid-container">
             <div className="project">

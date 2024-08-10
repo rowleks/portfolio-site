@@ -9,6 +9,27 @@
     padding: 25px 50px;
     align-items: center;
 
+    .active {
+        text-decoration: underline #000;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 2px;
+    }
+
+    .nav {
+        text-decoration: none;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: #2D2D2D;
+    }
+    
+    a:hover, a:focus, a:visited {
+        text-decoration: none;
+        color: #2D2D2D;
+    }
+
     h2 {
         line-height: 30px;
     }

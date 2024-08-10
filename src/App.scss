@@ -6,3 +6,12 @@ p {
     line-height: 27px;
     font-size: 17px;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    color: #2D2D2D;
+}
