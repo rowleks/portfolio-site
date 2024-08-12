@@ -8,6 +8,47 @@
     height: 80px;
     padding: 25px 50px;
     align-items: center;
+    position: relative;
+
+    .ham-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        opacity: 0;  // Start hidden
+        transform: translateX(-100%);  // Start off-screen
+        visibility: hidden;  // Hidden from screen readers and interactions
+        pointer-events: none;  // Disable interaction
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, .9);
+        color: #FFF;
+        transition: all .5s ease-in-out;
+
+        &.open {
+            opacity: 1;  // Fade in
+            transform: translateX(0);  // Slide in from left
+            visibility: visible;  // Visible to screen readers and interactions
+            pointer-events: auto;  // Enable interaction
+        }
+
+        .ham-nav-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5rem;
+            color: #FFF;
+
+            a {
+                color: #FFF;
+            }
+        }
+
+        
+    }
 
     .active {
         text-decoration: underline #000;
@@ -15,8 +56,18 @@
         text-decoration-thickness: 2px;
     }
 
-    .nav {
+    .nav-logo {
         text-decoration: none;
+
+    }
+
+    .ham-logo {
+        text-decoration: none;
+        z-index: 99;
+
+        h2 {
+            color: #FFF;
+        }
     }
 
 
@@ -28,6 +79,10 @@
     a:hover, a:focus, a:visited {
         text-decoration: none;
         color: #2D2D2D;
+    }
+
+    a:hover {
+        font-weight: bold;
     }
 
     h2 {
