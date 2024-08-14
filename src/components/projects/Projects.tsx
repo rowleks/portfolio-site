@@ -1,42 +1,36 @@
+import { motion } from "framer-motion";
 import "./projects.scss";
+import {myProjects} from "../../data/ProjectList"
 
 function Projects() {
+  const projectVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+  };
+
   return (
     <div id="projects" className="project-section">
-        <h2>Latest Projects</h2>
-        <div className="grid-container">
-            <div className="project">
-                <img src="./project1.png" alt="" />
-                <h4>Free Bird</h4>
-                <p>Lorem ipsum dolor</p>
-            </div>
-            <div className="project">
-                <img src="./project2.png" alt="" />
-                <h4>Purple Haze</h4>
-                <p>Lorem ipsum dolor</p>
-            </div>
-            <div className="project">
-                <img src="./project3.png" alt="" />
-                <h4>You Really Got Me</h4>
-                <p>Lorem ipsum dolor</p>
-            </div>
-            <div className="project">
-                <img src="./project4.png" alt="" />
-                <h4>American Girl</h4>
-                <p>Lorem ipsum dolor</p>
-            </div>
-            <div className="project">
-                <img src="./project5.png" alt="" />
-                <h4>Whole Lotta Love</h4>
-                <p>Lorem ipsum dolor</p>
-            </div>
-
-        </div>
-
-        <hr />
-      
+      <h2>Latest Projects</h2>
+      <div className="grid-container">
+        {myProjects.map((project) => (
+          <motion.div
+            className="project"
+            key={project.id}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.9 }}
+            transition={{ duration: 0.9, ease: "easeInOut" }}
+            variants={projectVariants}
+          >
+            <img src={project.imgSrc} alt={project.title} />
+            <h4>{project.title}</h4>
+            <p>{project.description}</p>
+          </motion.div>
+        ))}
+      </div>
+      <hr />
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
