@@ -18,7 +18,7 @@ This is my personal portfolio website built using Vite, React, SASS and TypeScri
 
 This portfolio is designed to provide a clear representation of my work and skills. It includes sections such as an introduction, project showcases, and contact information. The website is fully responsive and built with a modern tech stack.
 
-![Project Demo](./public/demo-vid.gif)
+![Project Demo](./demo-vid.gif)
 
 ## Features
 
