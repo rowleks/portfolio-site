@@ -77,6 +77,8 @@ The design for this portfolio project was inspired by a [Figma community project
 ## Contributing
 
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request. Any contributions that improve the codebase or add new features are welcome!
+> [!IMPORTANT]
+> Kindly leave a star if you simply want to download or clone this repository.
 
 ## License
 
