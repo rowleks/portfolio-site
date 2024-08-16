@@ -25,6 +25,7 @@
         justify-content: center;
         background-color: rgba(0, 0, 0, .9);
         color: #FFF;
+        border: none;
         transition: all .5s ease-in-out;
 
         &.open {
@@ -41,6 +42,7 @@
             justify-content: center;
             gap: 5rem;
             color: #FFF;
+            margin-top: -10rem;
 
             a {
                 color: #FFF;
