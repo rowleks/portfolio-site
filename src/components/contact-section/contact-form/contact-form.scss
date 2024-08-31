@@ -33,6 +33,10 @@
             font-weight: 600;
             font-family: inherit;
             cursor: pointer;
+
+            &:hover {
+                transform: scale(1.05);
+            }
         }
     }
 }

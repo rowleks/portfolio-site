@@ -1,3 +1,4 @@
+
 import "./about-hero.scss";
 
 function AboutHero() {
@@ -8,19 +9,22 @@ function AboutHero() {
                 <img src="/profile-pic2.png" alt="" />
                 <div className="info">
                     <h3>Rowland Momoh</h3>
-                    <p>Web Developer | IT Support Specialist</p>
+                    <p>Web Developer <b>|</b> IT Support Specialist</p>
+                    <a href="/resume.pdf" download="Rowland_Momoh_CV.pdf">
+                        <span>Download CV</span>
+                    </a>
                 </div>
             </div>
 
             <div className="bio">
                 <h3>Bio:</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquam deserunt, laudantium rerum facilis dolorem vero mollitia, repellendus saepe, autem distinctio enim beatae ratione unde? Exercitationem quos expedita minima nulla.</p>
+                <p>I am a dedicated <em>Web Developer</em> proficient in React, TypeScript, Material UI, and NextJS. I am passionate about creating responsive, user-friendly interfaces, I enjoy turning complex problems into intuitive digital experiences. With a strong foundation in JavaScript and front-end technologies, I continuously explore the latest tools and frameworks to deliver innovative solutions. I am also an <em>IT Support Specialist</em> with strong problem solving, technical and soft skills.<br /> <br />As a versatile candidate, I'm eager to contribute my skills to both domains, offering a unique blend of technical knowledge and a commitment to continuous learning. I'm excited about the opportunity to grow and contribute in a collaborative environment, I'm ready to embark on a dynamic career journey!</p>
             </div>
 
         </section>
 
         <section className="bottom">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis reprehenderit voluptas quam quas aliquid, eveniet optio quibusdam, soluta praesentium saepe unde quaerat asperiores a quod! Laborum, magnam. Incidunt quam sed ipsum a ipsam magni fugit quibusdam, animi dolorem non eveniet corrupti, quasi doloremque officiis sunt ab provident perferendis ipsa velit.</p>
+            <p>Beyond coding and tech, I'm an avid reader interested in psychology, wealth and personal growth, and I enjoy chess, puzzles, sitcoms, animes, and video games. Some of my top favourite books are; <em>The Alchemist</em> by Paulo Coelho, <em>How to Win Friends and Influence People</em> by Dale Carnegie and <em>Outliers</em> by Malcom Gladwell. If you share similar interests and wish to collaborate or discuss with me, feel free to reach out via any of the outlets provided in the Contact Me section below. </p>
         </section>
 
         <hr />

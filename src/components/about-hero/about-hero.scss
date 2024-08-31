@@ -33,12 +33,35 @@
             flex-direction: column;
             gap: 10px;
             line-height: 27px;
+
+            a {
+                margin-top: 10px;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+
+            span {
+                background-color: #D88CA5;
+                padding: 1rem;
+                width: fit-content;
+                color: #2D2D2D;
+                border-radius: 40px;
+                font-weight: bold;
+
+               
+            }
         }
 
         .bio {
-            line-height: 27px;
+            line-height: 30px;
             font-size: 17px;
             max-width: 600px;
+
+            p {
+                line-height: 30px;
+            }
         }
     }
 
@@ -47,8 +70,17 @@
         line-height: 27px;
         font-size: 17px;
 
+        
+
         @include sm {
             padding: 80px;
+
+            p {
+                max-width: 86%;
+                margin: 0 auto;
+                text-align: justify;
+                line-height: 30px;
+            }
         }
     }
 

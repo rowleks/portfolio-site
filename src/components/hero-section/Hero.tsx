@@ -5,9 +5,9 @@ function Hero() {
     <div className="hero-section">
       <section className="top">
         <div className="info">
-          <p className="role">Front-end | Image making</p>
+          <p className="role">React | NextJS</p>
           <h1>Web <span>Developer</span></h1>
-          <p className="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus enim, vel totam accusamus sed.</p>
+          <p className="bio">Hello, My name is Rowland Momoh, I am a front-end developer keen on making simple, elegeant and visually appealing websites</p>
         </div>
 
         <img className="profile-pic" src="/profile-pic1.png" alt="" />

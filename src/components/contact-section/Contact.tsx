@@ -8,7 +8,7 @@ function Contact() {
       <section className="left">
         <div className="text">
         <h2>Contact Me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia consectetur fugiat expedita similique sint. Pariatur odio aut dolorem modi architecto? Exercitationem explicabo deleniti consequatur eius!</p>
+        <p>If you  need any more information about me or have any question, kindly reach out to me by clicking on any of my socials below. Alternatively, you can fill the form provided to send your message and I will respond promptly. Thank you.</p>
         </div>
         <div className="socials">
           <Link to="mailto:momohrowland@gmail.com"><img src="/gmail-icon.svg" alt="gmail-icon"/></Link>

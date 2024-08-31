@@ -8,7 +8,7 @@ function Navbar() {
   const toggleNav = () => setOpen(!open)
   return (
     <div className="navbar">
-        <NavLink onClick={()=> setOpen(false)} className={open ? "ham-logo" : "nav-logo"} to="/"><h2>Logo</h2></NavLink>
+        <NavLink onClick={()=> setOpen(false)} className={open ? "ham-logo" : "nav-logo"} to="/"><h2>Rowland</h2></NavLink>
         <img className="nav-icon" src="/hamburger.png" alt="" onClick={toggleNav} />
         <div className="right-hand">
           <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/about">About</NavLink>

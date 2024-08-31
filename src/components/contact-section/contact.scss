@@ -52,6 +52,10 @@
             img {
                 width: 35px;
                 height: 35px;
+
+                &:hover {
+                    transform: scale(1.10);
+                }
             }
         }
     }
