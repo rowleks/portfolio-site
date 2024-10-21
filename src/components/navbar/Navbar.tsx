@@ -4,6 +4,8 @@ import "./navbar.scss";
 import { useState } from "react";
 function Navbar() {
 
+  const logo = "</Rowland>"
+
   const [open, setOpen] = useState(false)
   const toggleNav = () => setOpen(!open)
 
@@ -26,7 +28,7 @@ function Navbar() {
 
   return (
     <div className="navbar">
-        <NavLink onClick={()=> setOpen(false)} className={open ? "ham-logo" : "nav-logo"} to="/"><h2>Rowland</h2></NavLink>
+        <NavLink onClick={()=> setOpen(false)} className={open ? "ham-logo" : "nav-logo"} to="/"><h2>{logo}</h2></NavLink>
         <img className="nav-icon" src="/hamburger.png" alt="" onClick={toggleNav} />
         <div className="right-hand">
           <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/about">About</NavLink>

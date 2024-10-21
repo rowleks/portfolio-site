@@ -10,7 +10,7 @@ function Hero() {
           <p className="bio">Hello, My name is Rowland Momoh, I am a front-end developer keen on making simple, elegeant and aesthetics websites with the latest technologies</p>
         </div>
 
-        <img className="profile-pic" src="/profile-pic1.png" alt="" />
+        <img className="profile-pic" src="/profile-pic22.png" alt="" />
 
       </section>
       

@@ -6,12 +6,16 @@ function AboutHero() {
     <div className="about-hero">
         <section className="top">
             <div className="pic-bio">
-                <img src="/profile-pic2.png" alt="" />
+                <img src="/profile-pic11.png" alt="" />
                 <div className="info">
                     <h3>Rowland Momoh</h3>
                     <p>Web Developer <b>|</b> IT Support Specialist</p>
                     <a href="/resume.pdf" download="Rowland_Momoh_CV.pdf">
-                        <span>Download CV</span>
+                        <span className="download-btn">
+                            <span>Download CV</span>
+                            <img src="/download-icon.png" alt="download icon"/>
+                        </span>
+    
                     </a>
                 </div>
             </div>

@@ -32,7 +32,6 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
-            line-height: 27px;
 
             a {
                 margin-top: 10px;
@@ -44,24 +43,24 @@
 
             span {
                 background-color: #D88CA5;
-                padding: 1rem;
-                width: fit-content;
+                padding: .5rem;
                 color: #2D2D2D;
                 border-radius: 40px;
-                font-weight: bold;
+                font-weight: 700;
+                display: inline-flex;
+                align-items: center;
 
-               
+                img {
+                    width: 28px;
+                    height: 28px;
+                }
+
+
             }
         }
 
         .bio {
-            line-height: 30px;
-            font-size: 17px;
             max-width: 600px;
-
-            p {
-                line-height: 30px;
-            }
         }
     }
 
