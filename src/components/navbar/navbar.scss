@@ -47,6 +47,15 @@
             a {
                 color: #FFF;
             }
+            span {
+                color: #FFF;
+                cursor: pointer;
+    
+                &:hover {
+                    font-weight: 700;
+    
+                }
+            }
         }
 
         
@@ -102,6 +111,16 @@
 
     .right-hand {
         display: none;
+
+        span {
+            color: #2D2D2D;
+            cursor: pointer;
+
+            &:hover {
+                font-weight: 700;
+
+            }
+        }
 
         @include sm {
             display: flex;
