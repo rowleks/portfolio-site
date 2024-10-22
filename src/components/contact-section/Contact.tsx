@@ -17,7 +17,7 @@ function Contact() {
 
           <Link target="_blank" to="https://www.linkedin.com/in/rowland-momoh-b32a7a22a/"><img src="/linkedin-icon.svg" alt="linkedin-icon"/></Link>
             
-          <Link target="_blank" to="https://www.t.me/rowleks"><img src="/telegram-icon.svg" alt="telegram-icon"/></Link>
+          <Link target="_blank" to="https://instagram.com/rolex.bobzy/"><img src="/instagram-icon.svg" alt="telegram-icon"/></Link>
             
         </div>
       </section>

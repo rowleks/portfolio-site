@@ -8,7 +8,19 @@
     height: 80px;
     padding: 25px 50px;
     align-items: center;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transition: transform 0.3s ease-in-out;
+
+    &.hidden {
+        transform: translateY(-100%);
+    }
+
+    &.active {
+        transform: translateY(0);
+    }
 
     .ham-nav {
         position: fixed;

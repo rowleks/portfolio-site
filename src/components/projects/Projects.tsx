@@ -22,9 +22,13 @@ function Projects() {
             transition={{ duration: 0.9, ease: "easeInOut" }}
             variants={projectVariants}
           >
-            <img src={project.imgSrc} alt={project.title} />
-            <h4>{project.title}</h4>
+            <img className="project-img" src={project.imgSrc} alt={project.title} />
+            <h3>{project.title}</h3>
             <p>{project.description}</p>
+            <div className="links">
+              <a href={project.sourceCode} target="_blank"><img src="/git-icon.svg" alt="source code" /></a>
+              <a href={project.live} target="_blank"><img src="/tab-icon.svg" alt="live preview" /></a>
+            </div>
           </motion.div>
         ))}
       </div>

@@ -2,12 +2,12 @@ import "./hero.scss";
 
 function Hero() {
   return (
-    <div className="hero-section">
+    <div className="hero-section" id="home">
       <section className="top">
         <div className="info">
           <p className="role">React | NextJS</p>
           <h1>Web <span>Developer</span></h1>
-          <p className="bio">Hello, My name is Rowland Momoh, I am a front-end developer keen on making simple, elegeant and aesthetics websites with the latest technologies</p>
+          <p className="bio">Hello, My name is Rowland Momoh, I am a front-end developer keen on building simple, elegeant and aesthetic websites with the latest technologies</p>
         </div>
 
         <img className="profile-pic" src="/profile-pic22.png" alt="" />
@@ -15,7 +15,7 @@ function Hero() {
       </section>
       
         <hr />
-
+        
         <section className="tech-stack">
             <img src="/html.svg" alt="html-icon" />
             <img src="/css.svg" alt="css-icon" />
