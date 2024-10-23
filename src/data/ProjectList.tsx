@@ -6,7 +6,7 @@ export const myProjects = [
     { id: 3, imgSrc: "./crush-pizza.png", title: "Crush Pizza", description: "A mobile only restaurnt website for ordering pizzas and other snacks", sourceCode: "http://crush-pizza.netlify.app/", live:"https://github.com/rowleks/crush-pizza" },
 
 
-    { id: 4, imgSrc: "./rps-game.png", title: "Rock, Paper, Scissors", description: "A website for playing the classical rock, paper, scissors game built with HTML, CSS and JavaScript", sourceCode: "", live:"https://rowleks.github.io/rock-paper-scissors/" },
+    { id: 4, imgSrc: "./rps-game.png", title: "Rock, Paper, Scissors", description: "A website for playing the classical rock, paper, scissors game built with HTML, CSS and JavaScript", sourceCode: "https://github.com/rowleks/rowleks.github.io/tree/main/rock-paper-scissors", live:"https://rowleks.github.io/rock-paper-scissors/" },
 
     // { id: 5, imgSrc: "./project5.png", title: "Whole Lotta Love", description: "Lorem ipsum dolor" },
   ]

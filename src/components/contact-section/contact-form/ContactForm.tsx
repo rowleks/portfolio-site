@@ -26,7 +26,7 @@ const ContactForm= () => {
         
         setTimeout(() => {
           setFormData({ from_name: '', reply_to: '', message: '' });
-        }, 2000);
+        }, 1000);
       }, (error) => {
         console.log('Failed to send email:', error.text);
         toast.error('Failed to send message.');

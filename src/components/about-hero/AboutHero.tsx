@@ -2,7 +2,7 @@
 import "./about-hero.scss";
 
 function AboutHero() {
-  return (
+    return (
     <div className="about-hero">
         <section className="top">
             <div className="pic-bio">
@@ -21,14 +21,14 @@ function AboutHero() {
             </div>
 
             <div className="bio">
-                <h3>Bio:</h3>
-                <p>I am a dedicated <em>Web Developer</em> proficient in React, TypeScript, Material UI, and NextJS. I am passionate about creating responsive, user-friendly interfaces, I enjoy turning complex problems into intuitive digital experiences. With a strong foundation in JavaScript and front-end technologies, I continuously explore the latest tools and frameworks to deliver innovative solutions. I am also an <em>IT Support Specialist</em> with strong problem solving, technical and soft skills.<br /> <br />As a versatile candidate, I'm eager to contribute my skills to both domains, offering a unique blend of technical knowledge and a commitment to continuous learning. I'm excited about the opportunity to grow and contribute in a collaborative environment, I'm ready to embark on a dynamic career journey!</p>
+                <h3>About Me</h3>
+                <p>I am a dedicated <em>Web Developer</em> proficient in React, TypeScript, Material UI, and NextJS. I am passionate about building responsive, user-friendly interfaces, I enjoy turning complex problems into intuitive digital experiences. With a strong foundation in JavaScript and other front-end technologies, I continuously explore the latest tools and frameworks to deliver innovative solutions. I am also an <em>IT Support Specialist</em> with strong problem solving, technical and soft skills.<br /> <br />As a versatile candidate, I'm eager to contribute my skills to both domains, offering a unique blend of technical knowledge and a commitment to continuous learning. I'm excited about the opportunity to grow and contribute in a collaborative environment, I'm ready to embark on a dynamic career journey!</p>
             </div>
 
         </section>
 
         <section className="bottom">
-            <p>Beyond coding and tech, I'm an avid reader interested in psychology, wealth and personal growth, and I enjoy chess, puzzles, sitcoms, animes, and video games. Some of my top favourite books are; <em>The Alchemist</em> by Paulo Coelho, <em>How to Win Friends and Influence People</em> by Dale Carnegie and <em>Outliers</em> by Malcom Gladwell. If you share similar interests and wish to collaborate or discuss with me, feel free to reach out via any of the outlets provided in the Contact Me section below. </p>
+            <p>Beyond coding and tech, I'm an avid reader interested in psychology, scriptures, wealth and personal growth, and I enjoy chess, puzzles, sitcoms, animes, and video games. Some of my top favourite books are; <em>The Alchemist</em> by Paulo Coelho, <em>Platonic</em> by Marisa Franco and <em>Outliers</em> by Malcom Gladwell. If you share similar interests and wish to collaborate or discuss with me, feel free to reach out via any of the outlets provided in the Contact Me section below. </p>
         </section>
 
         <hr />
