@@ -3,7 +3,7 @@ export const myProjects = [
     
     { id: 2, imgSrc: "./illst-portfolio.png", title: "Illustrated Portfolio Website", description: "An illustrated portfolio website project built using React and TypeScript", sourceCode: "https://github.com/rowleks/illustrated-portfolio", live: "https://illustrated-portfolio.netlify.app/" },
 
-    { id: 3, imgSrc: "./crush-pizza.png", title: "Crush Pizza", description: "A mobile only restaurnt website for ordering pizzas and other snacks", sourceCode: "http://crush-pizza.netlify.app/", live:"https://github.com/rowleks/crush-pizza" },
+    { id: 3, imgSrc: "./crush-pizza.png", title: "Crush Pizza", description: "A mobile only restaurnt website for ordering pizzas and other snacks", sourceCode: "https://github.com/rowleks/crush-pizza", live:"http://crush-pizza.netlify.app/" },
 
 
     { id: 4, imgSrc: "./rps-game.png", title: "Rock, Paper, Scissors", description: "A website for playing the classical rock, paper, scissors game built with HTML, CSS and JavaScript", sourceCode: "https://github.com/rowleks/rowleks.github.io/tree/main/rock-paper-scissors", live:"https://rowleks.github.io/rock-paper-scissors/" },

@@ -65,13 +65,21 @@
             h3 {
                 margin-bottom: 1rem;
             }
+
+            p {
+                text-align: justify;
+                word-spacing: -0.8px;
+            }
         }
     }
 
     section.bottom {
         padding: 80px 30px;
 
-        
+        p {
+            text-align: justify;
+            word-spacing: 1.1px;
+        }
 
         @include sm {
             padding: 80px;
