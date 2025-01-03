@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className='footer'>
         <span>Rowland Momoh</span>
-        <span>&copy;2024</span>
+        <span>&copy;2025</span>
       
     </div>
   )
