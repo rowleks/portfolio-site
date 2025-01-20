@@ -12,5 +12,9 @@ export const myProjects = [
 
     { id: 6, imgSrc: "./easybank.jpg", title: "Easybank Landing Page", description: "Solution to a frontend mentor challenge built with HTML, CSS and JS", sourceCode: "https://github.com/rowleks/easybank", live:"https://fe-easybank.netlify.app/" },
 
+    { id: 7, imgSrc: "./mortgage-calulator.png", title: "Mortgage Calculator", description: "Solution to a frontend mentor challenge built with HTML, CSS and JS", sourceCode: "https://github.com/rowleks/fe-mortgage-calculator", live:"https://fe-mortgage-calculator.netlify.app/" },
+
+    { id: 8, imgSrc: "./multi-step-form.png", title: "Multi-step Form", description: "Solution to a frontend mentor challenge built with React and TypeScript", sourceCode: "https://github.com/rowleks/fe-multi-step-form", live:"https://fe-multistep-form.netlify.app/" },
+
     // { id: 5, imgSrc: "./project5.png", title: "Whole Lotta Love", description: "Lorem ipsum dolor" },
   ]
