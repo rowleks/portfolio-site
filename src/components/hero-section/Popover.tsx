@@ -4,15 +4,90 @@ import { Popover } from "react-tiny-popover";
 const TechStack = () => {
   // Array of tech details with progress values and theme colors
   const techStack = [
-    { name: "HTML", src: "/html.svg", alt: "html-icon", progress: 90, color: "#e34c26" },
-    { name: "CSS", src: "/css-logo.svg", alt: "css-icon", progress: 85, color: "#663399" },
-    { name: "JavaScript", src: "/javascript.svg", alt: "js-icon", progress: 80, color: "#f7df1e" },
-    { name: "TypeScript", src: "/typescript.svg", alt: "ts-logo", progress: 75, color: "#3178c6" },
-    { name: "Git/Github", src: "/git.svg", alt: "git-logo", progress: 75, color: "#f05032" },
-    { name: "React", src: "/react.svg", alt: "react-logo", progress: 85, color: "#61dafb" },
-    { name: "Node.js", src: "/node-js.svg", alt: "node-logo", progress: 65, color: "#339933" },
-    { name: "Tailwind CSS", src: "/tailwind.svg", alt: "tw-logo", progress: 65, color: "#38bdf8" },
-    { name: "Sass", src: "/sass.svg", alt: "sass-logo", progress: 80, color: "#cc6699" },
+    {
+      name: "HTML",
+      src: "/html.svg",
+      alt: "html-icon",
+      progress: 90,
+      color: "#e34c26",
+    },
+    {
+      name: "CSS",
+      src: "/css-logo.svg",
+      alt: "css-icon",
+      progress: 85,
+      color: "#663399",
+    },
+    {
+      name: "JavaScript",
+      src: "/javascript.svg",
+      alt: "js-icon",
+      progress: 80,
+      color: "#f7df1e",
+    },
+    {
+      name: "TypeScript",
+      src: "/typescript.svg",
+      alt: "ts-logo",
+      progress: 80,
+      color: "#3178c6",
+    },
+    {
+      name: "Git/Github",
+      src: "/git.svg",
+      alt: "git-logo",
+      progress: 85,
+      color: "#f05032",
+    },
+    {
+      name: "React",
+      src: "/react.svg",
+      alt: "react-logo",
+      progress: 85,
+      color: "#61dafb",
+    },
+    {
+      name: "Next.js",
+      src: "/nextjs.svg",
+      alt: "nextjs-logo",
+      progress: 85,
+      color: "#000",
+    },
+    {
+      name: "Vue.js",
+      src: "/vue.svg",
+      alt: "vue-logo",
+      progress: 75,
+      color: "#41b883",
+    },
+    {
+      name: "Node.js",
+      src: "/node-js.svg",
+      alt: "node-logo",
+      progress: 75,
+      color: "#339933",
+    },
+    {
+      name: "Tailwind CSS",
+      src: "/tailwind.svg",
+      alt: "tw-logo",
+      progress: 90,
+      color: "#38bdf8",
+    },
+    {
+      name: "Sass",
+      src: "/sass.svg",
+      alt: "sass-logo",
+      progress: 80,
+      color: "#cc6699",
+    },
+    {
+      name: "GSAP",
+      src: "/gsap.svg",
+      alt: "gsap-logo",
+      progress: 65,
+      color: "#8bc34a",
+    },
   ];
 
   const [isPopoverOpen, setIsPopoverOpen] = useState<number | null>(null);
@@ -23,7 +98,7 @@ const TechStack = () => {
         <Popover
           key={index}
           isOpen={isPopoverOpen === index}
-          positions={'top'} // Preferred positions for the popover
+          positions={"top"} // Preferred positions for the popover
           align="center"
           padding={15}
           content={
@@ -35,7 +110,7 @@ const TechStack = () => {
                 backgroundColor: "#fff",
                 boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                 textAlign: "center",
-                minWidth: "150px"
+                minWidth: "150px",
               }}
             >
               {/* Arrow for tooltip */}
@@ -52,7 +127,15 @@ const TechStack = () => {
                   borderColor: `${tech.color} transparent transparent transparent`,
                 }}
               />
-              <p style={{ margin: "0 0 8px", fontWeight: "bold", fontSize: "14px" }}>{tech.name}</p>
+              <p
+                style={{
+                  margin: "0 0 8px",
+                  fontWeight: "bold",
+                  fontSize: "14px",
+                }}
+              >
+                {tech.name}
+              </p>
               <progress
                 value={tech.progress}
                 max="100"
@@ -83,7 +166,9 @@ const TechStack = () => {
             src={tech.src}
             alt={tech.alt}
             style={{ width: "64px", height: "64px", cursor: "pointer" }}
-            onClick={() => setIsPopoverOpen(isPopoverOpen === index ? null : index)}
+            onClick={() =>
+              setIsPopoverOpen(isPopoverOpen === index ? null : index)
+            }
           />
         </Popover>
       ))}
